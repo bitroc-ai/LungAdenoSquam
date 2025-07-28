@@ -15,4 +15,4 @@ ENV TF_CPP_MIN_LOG_LEVEL=2
 
 # Default command
 ENTRYPOINT ["python", "train_model.py"]
-CMD ["--data-dir", "/data", "--output-dir", "/output"]
+CMD ["--data-dir", "/data/sf", "--output-dir", "/output"]
