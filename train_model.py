@@ -21,8 +21,6 @@ def train_slideflow_model(
     print("Setting up Slideflow project...")
     project = sf.load_project(
         root=data_dir,
-        cfg=sf.project.LungAdenoSquam(),
-        download=False  # Data already fetched
     )
 
     # Create dataset
